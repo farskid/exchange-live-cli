@@ -5,6 +5,9 @@
   "bin": {
     "exchange-live": "bin/exchange-live-cli.js"
   },
+  "scripts": {
+    "dev": "node ./bin/exchange-live-cli.js"
+  },
   "main" : "./lib/index.js",
   "preferGlobal": "true",
   "repository": "https://github.com/moxart/exchange-live-cli.git",
